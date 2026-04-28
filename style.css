@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+/* TOP SECTION */
+
 body {
     font-family: Roboto;
     display: flex;
@@ -73,11 +75,59 @@ img {
 .button {
     padding: 10px 20px;
     margin-top: 10px;
-    background-color: #0066cc;
+    background-color: #3882F6;
     color: white;
     border: none;
     border-radius: 10px;
     font-size: 18px;
     width: 100px;
     text-align: center;
+}
+
+/* MIDDLE SECTION */
+
+.middle-section {
+    background-color: white;
+    padding: 50px;
+}
+
+.middle-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.middle-subtext {
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+    gap: 50px;
+    justify-content: center;
+}
+
+.card {
+    width: 180px;
+    aspect-ratio: 1 / 1;
+    border: 3px solid #3882F6;
+    border-radius: 18px;
+    background-color: white;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+
+}
+
+.text {
+    margin-top: 10px;
+    font-size: 18px;
+    color: darkgrey;
+    display: flex;
+    max-width: 180px;
 }
