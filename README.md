@@ -1,1 +1,1 @@
-# Project-Landing-Page
+This project is about creating a basic landing page based on my learnings with HTML and CSS.
