@@ -159,3 +159,40 @@ img {
     padding-right: 250px;
 
 }
+
+/* BOTTOM SECTION */
+
+.low-section {
+    border: #3882F6 solid 1px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    margin: 100px 175px;
+    padding: 50px 125px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.info-subtext {
+    color: lightgray;
+}
+
+.sign-up {
+    border: white solid 2px;
+    width: fit-content;
+    padding: 5px 25px;
+    border-radius: 10px;
+    height: fit-content;
+    font-size: 18px;
+}
